@@ -1,5 +1,4 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const NoteModel = require("../model/note.model");
 
 const noteRouter = express.Router();
